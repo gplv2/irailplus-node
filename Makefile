@@ -27,6 +27,7 @@ unit:
 
 skel:
 	if [ ! -d "examples" ]; then mkdir examples ; fi
+	if [ ! -d "coverage" ]; then mkdir coverage ; fi
 	if [ ! -d "lib" ]; then mkdir lib ; fi
 	if [ ! -d "test" ]; then mkdir test ; fi
 	touch index.js
